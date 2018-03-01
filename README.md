@@ -15,13 +15,13 @@ Use instructions:
 1. git clone https://github.com/anamarijaselak/HMM-Basecaller.git
 2. ParseFast5.py should be run in order to preprocess events. Input argument is path to a folder with FAST5 files.
     ParseFast5.py creates new processes files and stores them to folder "ProcessedFiles".
-3. Run hmm.cpp
-    Input arguments for hmm.cpp are :
-        1. path to a directory containing processed files
-        2. path to pore model file
-        3. path to file Neighbours.txt
-        4. path to file BackwardNeighbours.txt
-        5. path to file Mask.txt
-        6. path to file BackwardMask.txt
-        7. path to file indexesForBW
+3. Run hmm.cpp <br />
+    Input arguments for hmm.cpp are :<br />
+        1. path to a directory containing processed files<br />
+        2. path to pore model file<br />
+        3. path to file Neighbours.txt<br />
+        4. path to file BackwardNeighbours.txt<br />
+        5. path to file Mask.txt<br />
+        6. path to file BackwardMask.txt<br />
+        7. path to file indexesForBW<br />
         8. path to a folder where the FASTA files should be stored
